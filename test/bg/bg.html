@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+
+  <style>
+    .default {
+      height: 300px;
+      width: 300px;
+      background-image: url("logo.png");
+      margin-bottom: 100px;
+    }
+
+    .no-repeat {
+      height: 300px;
+      width: 300px;
+      background-image: url("logo.png");
+      background-repeat: no-repeat;
+      margin-bottom: 100px;
+    }
+
+    .repeat-by-x {
+      height: 300px;
+      width: 300px;
+      background-image: url("logo.png");
+      background-repeat: repeat-x;
+      margin-bottom: 100px;
+    }
+
+    .repeat-by-y {
+      height: 300px;
+      width: 300px;
+      background-image: url("logo.png");
+      background-repeat: repeat-y;
+      margin-bottom: 100px;
+    }
+
+    .position {
+      height: 300px;
+      width: 300px;
+      background-color: chocolate;
+      background-image: url("logo.png");
+      background-repeat: no-repeat;
+      /* 水平 垂直 */
+      background-position: center bottom;
+      margin-bottom: 100px;
+    }
+
+    .half-transparent {
+      height: 300px;
+      width: 300px;
+      /* 透明度 0.3 */
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+  </style>
+</head>
+<body>
+  <div class="default">默认是平铺</div>
+  <div class="no-repeat">不平铺</div>
+  <div class="repeat-by-x">沿着X轴平铺</div>
+  <div class="repeat-by-y">沿着Y轴平铺</div>
+  <div class="position">中下位置</div>
+  <div class="half-transparent">半透明效果</div>
+</body>
+</html>

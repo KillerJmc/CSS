@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+
+  <style>
+    /* 后代选择器 */
+    ul li {
+      color: deeppink;
+    }
+
+    /* 后代选择器 */
+    .nav li {
+      color: blue;
+    }
+
+    /* 子选择器，只选儿子，不选孙子 */
+    ol li > a {
+      color: cyan;
+    }
+
+    /* 并集选择器 */
+    h1, h2 {
+      color: green;
+    }
+
+    /* 鼠标悬停在链接上是红色的 */
+    a:hover {
+      color: red;
+    }
+
+  </style>
+</head>
+<body>
+  <ul>
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+  </ul>
+
+  <ol class="nav">
+    <li>a</li>
+    <li>b</li>
+    <li>c</li>
+  </ol>
+
+  <ol>
+    <li><span><a href="#">a</a></span></li>
+    <li><a href="#">b</a></li>
+    <li><span><a href="#">c</a></span></li>
+  </ol>
+
+  <h1>标题1</h1>
+  <h2>标题2</h2>
+</body>
+</html>
