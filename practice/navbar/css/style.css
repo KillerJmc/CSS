@@ -1,0 +1,17 @@
+div {
+  border-top: solid 5px orangered;
+  border-bottom: solid 1px darkgrey;
+  line-height: 3em;
+}
+
+a {
+  padding: 1em;
+  text-decoration: none;
+  color: darkslategrey;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+a:hover {
+  background-color: lightgrey;
+}

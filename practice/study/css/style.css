@@ -1,0 +1,64 @@
+/** 全局设置 */
+* {
+  padding: 0;
+  margin: 0;
+  background-color: #f3f5f7;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-family: '宋体', serif;
+  font-size: 18px;
+}
+
+/* TODO */
+a:hover {
+  text-decoration: underline;
+  text-decoration-color: #00a4ff;
+}
+
+/* 盒子共有属性 */
+.common-box {
+  padding: 0 360px;
+}
+
+/* 导航条 */
+.nav-bar {
+  height: 101px;
+}
+
+/* 导航条：标题图片 */
+.nav-bar .title-pic {
+  display: inline-block;
+  /* 右边并列元素竖直关于顶线对齐 */
+  vertical-align: top;
+  margin-right: 33px;
+}
+
+/* 导航条：链接 */
+.nav-bar .links {
+  display: inline-block;
+  vertical-align: top;
+  width: 284px;
+  height: 101px;
+}
+
+.nav-bar .links a {
+  padding-left: 43px;
+  line-height: 101px;
+}
+
+/* 导航条：搜索 */
+.nav-bar .search {
+  display: inline-block;
+  margin-left: 96px;
+  width: 360px;
+  height: 101px;
+}
+
+/* 导航条：搜索框 */
+.nav-bar .search input {
+  /* TODO */
+}
+
