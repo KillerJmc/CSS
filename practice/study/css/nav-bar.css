@@ -1,0 +1,76 @@
+/* 导航条 */
+.nav-bar {
+  height: 101px;
+  width: 100% ;
+}
+
+/* 导航条：标题图片 */
+.nav-bar .title-pic {
+  display: inline-block;
+  /* 右边并列元素竖直关于顶线对齐 */
+  vertical-align: top;
+  margin-right: 33px;
+}
+
+/* 导航条：链接 */
+.nav-bar .links {
+  display: inline-block;
+  vertical-align: top;
+  width: 286px;
+  height: 100%;
+  font-weight: 560;
+}
+
+.nav-bar .links a {
+  padding-left: 43px;
+  line-height: 101px;
+}
+
+/* 导航条：搜索 */
+.nav-bar .search {
+  display: inline-block;
+  margin: 31px 0 0 96px;
+  width: 413px;
+  height: 70px;
+}
+
+/* 导航条：搜索框 */
+.nav-bar .search .search-input {
+  float: left;
+  width: 341px;
+  height: 38px;
+  padding-left: 19px;
+  border: solid #00a4ff 1px;
+}
+
+/* 导航条：搜索按钮 */
+.nav-bar .search .search-button {
+  float: left;
+  width: 50px;
+  height: 40px;
+  background-image: url('../images/search-button.png');
+}
+
+/* 导航条：用户信息 */
+.nav-bar .profile {
+  display: inline-block;
+  width: 118px;
+  height: 100%;
+  margin-left: 31px;
+  vertical-align: top;
+}
+
+.nav-bar .profile img {
+  display: inline-block;
+  margin: 36px 0;
+  width: 30px;
+  height: 30px;
+  vertical-align: top;
+}
+
+.nav-bar .profile p {
+  display: inline-block;
+  line-height: 30px;
+  margin: 36px 0;
+  padding-left: 8px;
+}
