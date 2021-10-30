@@ -1,0 +1,40 @@
+/* 兴趣条 */
+.hobby-bar {
+  margin-top: 8px;
+  height: 38px;
+  /* TODO: 魔法值 */
+  width: 1200px;
+  background-color: white;
+  padding-top: 22px;
+}
+
+.hobby-bar a {
+  float: left;
+  width: 123px;
+  height: 16px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  border-right: solid 1px grey;
+  background-color: white;
+}
+
+.hobby-bar a:hover {
+  color: #00a4ff;
+  text-decoration: none;
+}
+
+.hobby-bar .first-one {
+  color: #00a4ff;
+}
+
+.hobby-bar .last-one {
+  border-right: none;
+}
+
+.hobby-bar .modify-hobby {
+  float: right;
+  font-size: 14px;
+  border-right: none;
+  color: #00a4ff;
+}

@@ -15,7 +15,7 @@ a {
   font-size: 18px;
 }
 
-/* TODO */
+/* TODO: 下划线位置和粗细问题 */
 a:hover {
   text-decoration: underline;
   text-decoration-color: #00a4ff;
@@ -27,7 +27,7 @@ ul {
 
 /* 盒子共有属性 */
 .common-box {
-  /* TODO */
+  /* TODO: 魔法值 */
   margin: 0 100px;
 }
 

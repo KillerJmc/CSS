@@ -55,6 +55,8 @@
   float: right;
   width: 228px;
   height: 300px;
+  /* TODO: 魔法值 */
+  margin-right: 218px;
 }
 
 .preview .schedule h1 {
@@ -68,10 +70,10 @@
 }
 
 .preview .schedule li {
-  width: 209px;
-  height: 51px;
-  padding: 19px 0 0 19px;
-  /* TODO: 下划线 */
+  width: 192px;
+  height: 48px;
+  margin: 16px 0 0 18px;
+  border-bottom: 1px solid grey;
 }
 
 .preview .schedule .continue-to-study {
@@ -90,12 +92,12 @@
 }
 
 .preview .schedule button {
-  /* TODO: 按钮的位置不正确 */
   width: 200px;
   height: 40px;
   color: #00a4ff;
+  font-size: 16px;
   border: solid 1px #00a4ff;
-  margin: 0 0 23px 14px;
+  margin: 5px 0 0 14px;
 }
 
 

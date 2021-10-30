@@ -1,0 +1,125 @@
+/* 课程模块 */
+.courses {
+  margin-top: 35px;
+  width: 100%;
+}
+
+/* 课程模块的标题行 */
+.courses .head {
+  height: 42px;
+  /* TODO: 魔法值 */
+  width: 1200px;
+}
+
+/* 标题 */
+.courses .head h1 {
+  float: left;
+  font-size: 20px;
+  font-weight: normal;
+  color: #494949;
+}
+
+/* 等级 */
+.courses .head .level {
+  float: left;
+  margin-left: 203px;
+  height: 100%;
+}
+
+.courses .head .level a {
+  margin-right: 71px;
+  font-size: 16px;
+}
+
+/* 查看全部标签 */
+.courses .head .view-all {
+  float: right;
+  color: grey;
+  font-size: 13px;
+  line-height: 2em;
+  margin-right: 37px;
+}
+
+/* 内容的标签 */
+.courses .label {
+  float: left;
+  width: 184px;
+  height: 91px;
+  padding: 180px 20px 15px 24px;
+  margin-right: 15px;
+  background-repeat: no-repeat;
+}
+
+/* 标签中的标题 */
+.courses .label h1 {
+  font-size: 14px;
+  background-color: white;
+}
+
+/* 标签中的信息 */
+.courses .label .info {
+  margin-top: 20px;
+  background-color: white;
+}
+
+/* 信息中的课程等级 */
+.courses .label .info .level {
+  float: left;
+  background-color: white;
+  font-size: 12px;
+  color: #ff7c2d;
+}
+
+/* 信息中的学习人数 */
+.courses .label .info .studying-number {
+  float: left;
+  background-color: white;
+  font-size: 12px;
+  color: grey;
+}
+
+/* 课程模块: 精品推荐 */
+.courses .recommend {
+  overflow: hidden;
+}
+
+/* 精品推荐: 内容 */
+.courses .recommend .content {
+
+}
+
+.courses .recommend .content .label-php {
+  background-image: url('../images/content-php.png');
+}
+
+.courses .recommend .content .label-android {
+  background-image: url('../images/content-android.png');
+}
+
+.courses .recommend .content .label-angular {
+  background-image: url('../images/content-angular.png');
+}
+
+.courses .recommend .content .label-hybrid {
+  background-image: url('../images/content-hybrid.png');
+}
+
+/* 课程模块: */
+.courses .get-started {
+  margin-top: 23px;
+}
+
+.courses .get-started .php-left-pic {
+  float: left;
+  width: 227px;
+  height: 392px;
+  margin-right: 15px;
+  background-image: url('../images/php-left.png');
+}
+
+.courses .get-started .python-top-pic {
+  float: left;
+  width: 957px;
+  height: 100px;
+  background-image: url('../images/python-top.png');
+}
