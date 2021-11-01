@@ -4,22 +4,23 @@
   width: 100%;
 }
 
-/* 课程模块的标题行 */
+/* 课程模块: 标题行 */
 .courses .head {
   height: 42px;
   /* TODO: 魔法值 */
   width: 1200px;
 }
 
-/* 标题 */
+/* 标题行: 标题 */
 .courses .head h1 {
   float: left;
+  width: 228px;
   font-size: 20px;
   font-weight: normal;
   color: #494949;
 }
 
-/* 等级 */
+/* 标题行: 等级 */
 .courses .head .level {
   float: left;
   margin-left: 203px;
@@ -31,7 +32,12 @@
   font-size: 16px;
 }
 
-/* 查看全部标签 */
+.courses .head .level a:hover {
+  text-decoration: none;
+  color: #00a4ff;
+}
+
+/* 标题行: "查看全部"标签 */
 .courses .head .view-all {
   float: right;
   color: grey;
@@ -40,42 +46,101 @@
   margin-right: 37px;
 }
 
-/* 内容的标签 */
+/* 课程模块: 内容标签 */
 .courses .label {
   float: left;
-  width: 184px;
-  height: 91px;
-  padding: 180px 20px 15px 24px;
-  margin-right: 15px;
+  width: 228px;
+  height: 271px;
+  margin: 0 15px 14px 0;
   background-repeat: no-repeat;
 }
 
-/* 标签中的标题 */
-.courses .label h1 {
-  font-size: 14px;
-  background-color: white;
+/* 内容标签: 标记图片 */
+.courses .label .mark-img {
+  float: right;
+  width: 40px;
+  height: 24px;
+  margin: 4px -4px 0 0;
+  background-color: rgba(0, 0, 0, 0);
 }
 
-/* 标签中的信息 */
+/* 内容标签: 信息 */
 .courses .label .info {
-  margin-top: 20px;
+  width: 184px;
+  height: 63px;
+  padding: 25px 20px 27px 24px;
+  margin-top: 155px;
   background-color: white;
 }
 
-/* 信息中的课程等级 */
+/* 内容标签: 信息: 标题 */
+.courses .label .info .title {
+  font-size: 14px;
+  height: 2em;
+  background-color: white;
+}
+
+/* 内容标签: 信息: 课程等级 */
 .courses .label .info .level {
   float: left;
-  background-color: white;
+  margin-top: 20px;
   font-size: 12px;
   color: #ff7c2d;
+  background-color: white;
 }
 
-/* 信息中的学习人数 */
+/* 内容标签: 信息: 学习人数 */
 .courses .label .info .studying-number {
   float: left;
-  background-color: white;
+  margin-top: 20px;
   font-size: 12px;
   color: grey;
+  background-color: white;
+}
+
+/* php标签 */
+.courses .label-php {
+  background-image: url('../images/label/bg/php.png');
+}
+
+/* 安卓标签 */
+.courses .label-android {
+  background-image: url('../images/label/bg/android.png');
+}
+
+/* Angular标签 */
+.courses .label-angular {
+  background-image: url('../images/label/bg/angular.png');
+}
+
+/* Hybrid标签 */
+.courses .label-hybrid {
+  background-image: url('../images/label/bg/hybrid.png');
+}
+
+/* UGUI标签 */
+.courses .label-ugui {
+  background-image: url('../images/label/bg/ugui.png');
+}
+
+/* Kami2标签 */
+.courses .label-kami2 {
+  background-image: url('../images/label/bg/kami2.png');
+}
+
+/* Unity标签 */
+.courses .label-unity {
+  background-image: url('../images/label/bg/unity.png');
+}
+
+/* Cocos标签 */
+.courses .label-cocos {
+  background-image: url('../images/label/bg/cocos.png');
+}
+
+/* 微软标签 */
+.courses .label-microsoft {
+  background-image: url('../images/label/bg/microsoft.png');
 }
 
 /* 课程模块: 精品推荐 */
@@ -83,32 +148,13 @@
   overflow: hidden;
 }
 
-/* 精品推荐: 内容 */
-.courses .recommend .content {
-
-}
-
-.courses .recommend .content .label-php {
-  background-image: url('../images/content-php.png');
-}
-
-.courses .recommend .content .label-android {
-  background-image: url('../images/content-android.png');
-}
-
-.courses .recommend .content .label-angular {
-  background-image: url('../images/content-angular.png');
-}
-
-.courses .recommend .content .label-hybrid {
-  background-image: url('../images/content-hybrid.png');
-}
-
-/* 课程模块: */
+/* 课程模块: 编程入门 */
 .courses .get-started {
+  overflow: hidden;
   margin-top: 23px;
 }
 
+/* 编程入门: php左边图片 */
 .courses .get-started .php-left-pic {
   float: left;
   width: 227px;
@@ -117,9 +163,51 @@
   background-image: url('../images/php-left.png');
 }
 
+/* 编程入门: python顶部图片 */
 .courses .get-started .python-top-pic {
   float: left;
   width: 957px;
   height: 100px;
   background-image: url('../images/python-top.png');
+  margin-bottom: 22px;
 }
+
+/* 课程模块: 数据分析师 */
+.courses .data-analyser {
+  overflow: hidden;
+  margin-top: 23px;
+}
+
+/* 编程入门: php左边图片 */
+.courses .data-analyser .php-left-pic {
+  float: left;
+  width: 227px;
+  height: 392px;
+  margin-right: 15px;
+  background-image: url('../images/php-left2.png');
+}
+
+/* 编程入门: python顶部图片 */
+.courses .data-analyser .python-top-pic {
+  float: left;
+  width: 957px;
+  height: 100px;
+  background-image: url('../images/python-top2.png');
+  margin-bottom: 22px;
+}
+
+/* 课程模块: 机器学习工程师 */
+.courses .machine-learning {
+  overflow: hidden;
+  margin-top: 23px;
+}
+
+/* 课程模块: 前端开发工程师 */
+.courses .front-end-development {
+  overflow: hidden;
+  margin-top: 23px;
+}
+
+
+
+

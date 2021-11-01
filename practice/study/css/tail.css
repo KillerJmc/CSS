@@ -1,0 +1,89 @@
+/* 页面尾部 */
+.tail {
+  /* TODO: 魔法值 */
+  width: 1538px;
+  height: 417px;
+  margin-top: 26px;
+  padding: 33px 0 0 360px;
+  background-color: white;
+}
+
+/* 页面尾部：左栏 */
+.tail .left {
+  float: left;
+  width: 432px;
+  height: 160px;
+  padding-left: 21px;
+  background-color: white;
+}
+
+/* 左栏：标题图片 */
+.tail .left .title-pic {
+  float: left;
+  margin-bottom: 21px;
+  background-color: white;
+}
+
+/* 左栏：备案信息 */
+.tail .left .record-info {
+  float: left;
+  font-size: 12px;
+  color: #666666;
+  margin-block: 0;
+  line-height: 1.5em;
+  background-color: white;
+}
+
+/* 左栏：下载按钮 */
+.tail .left .download-app {
+  float: left;
+  width: 120px;
+  height: 36px;
+  margin-top: 15px;
+  color: #00a4ff;
+  font-size: 15px;
+  text-align: center;
+  line-height: 36px;
+  border: solid 1px #00a4ff;
+  background-color: white;
+}
+
+.tail .left .download-app:hover {
+  text-decoration: none;
+}
+
+/* 右栏 */
+.tail .right {
+  float: left;
+  width: 630px;
+  height: 130px;
+  margin-left: 115px;
+  background-color: white;
+}
+
+.tail .right dl {
+  float: left;
+  width: 100px;
+  height: 127px;
+  margin-left: 110px;
+  background-color: white;
+}
+
+.tail .right dt {
+  font-size: 15px;
+  margin-bottom: 13px;
+  background-color: white;
+}
+
+.tail .right dd {
+  font-size: 12px;
+  line-height: 1.6em;
+  background-color: white;
+}
+
+
+
+
+
+
+

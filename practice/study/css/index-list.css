@@ -1,0 +1,26 @@
+/* 索引列表 */
+.index-list {
+  /* 浮动元素可以覆盖块状元素 */
+  float: left;
+  width: 183px;
+  height: 421px;
+  margin: 322px 0 0 151px;
+  padding: 2px 0;
+  background-color: white;
+}
+
+/* 索引列表: 标签 */
+.index-list a {
+  float: left;
+  width: 158px;
+  margin-top: 24px;
+  padding-left: 25px;
+  font-size: 12px;
+  line-height: 1em;
+  background-color: white;
+}
+
+.index-list a:hover {
+  color: #00a4ff;
+  text-decoration: none;
+}
