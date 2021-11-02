@@ -1,15 +1,19 @@
+/* 页面外层 */
+.tail-bar-outer {
+  /* 指定全宽度背景 */
+  background-color: white;
+}
+
 /* 页面尾部 */
-.tail {
-  /* TODO: 魔法值 */
-  width: 1538px;
+.tail-bar {
   height: 417px;
   margin-top: 26px;
-  padding: 33px 0 0 360px;
+  padding: 33px 0 0 20px;
   background-color: white;
 }
 
 /* 页面尾部：左栏 */
-.tail .left {
+.tail-bar .left {
   float: left;
   width: 432px;
   height: 160px;
@@ -18,14 +22,14 @@
 }
 
 /* 左栏：标题图片 */
-.tail .left .title-pic {
+.tail-bar .left .title-pic {
   float: left;
   margin-bottom: 21px;
   background-color: white;
 }
 
 /* 左栏：备案信息 */
-.tail .left .record-info {
+.tail-bar .left .record-info {
   float: left;
   font-size: 12px;
   color: #666666;
@@ -35,7 +39,7 @@
 }
 
 /* 左栏：下载按钮 */
-.tail .left .download-app {
+.tail-bar .left .download-app {
   float: left;
   width: 120px;
   height: 36px;
@@ -48,34 +52,34 @@
   background-color: white;
 }
 
-.tail .left .download-app:hover {
+.tail-bar .left .download-app:hover {
   text-decoration: none;
 }
 
 /* 右栏 */
-.tail .right {
+.tail-bar .right {
   float: left;
-  width: 630px;
+  width: 642px;
   height: 130px;
-  margin-left: 115px;
+  margin-left: 103px;
   background-color: white;
 }
 
-.tail .right dl {
+.tail-bar .right dl {
   float: left;
   width: 100px;
   height: 127px;
-  margin-left: 110px;
+  margin-left: 114px;
   background-color: white;
 }
 
-.tail .right dt {
+.tail-bar .right dt {
   font-size: 15px;
   margin-bottom: 13px;
   background-color: white;
 }
 
-.tail .right dd {
+.tail-bar .right dd {
   font-size: 12px;
   line-height: 1.6em;
   background-color: white;

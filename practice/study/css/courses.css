@@ -1,14 +1,11 @@
 /* 课程模块 */
 .courses {
   margin-top: 35px;
-  width: 100%;
 }
 
 /* 课程模块: 标题行 */
 .courses .head {
   height: 42px;
-  /* TODO: 魔法值 */
-  width: 1200px;
 }
 
 /* 标题行: 标题 */
@@ -55,13 +52,18 @@
   background-repeat: no-repeat;
 }
 
+/* 内容标签：最后一个没有右边距 */
+.courses .last-label {
+  margin-right: 0;
+}
+
 /* 内容标签: 标记图片 */
 .courses .label .mark-img {
   float: right;
   width: 40px;
   height: 24px;
   margin: 4px -4px 0 0;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: transparent;
 }
 
 /* 内容标签: 信息 */

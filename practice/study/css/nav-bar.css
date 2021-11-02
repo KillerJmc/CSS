@@ -1,12 +1,12 @@
 /* 导航条 */
 .nav-bar {
   height: 101px;
-  width: 100% ;
+  position: center;
 }
 
 /* 导航条：标题图片 */
 .nav-bar .title-pic {
-  display: inline-block;
+  float: left;
   /* 右边并列元素竖直关于顶线对齐 */
   vertical-align: top;
   margin: 30px 33px 0 0;
@@ -14,7 +14,7 @@
 
 /* 导航条：链接 */
 .nav-bar .links {
-  display: inline-block;
+  float: left;
   vertical-align: top;
   width: 286px;
   height: 100%;
@@ -28,7 +28,7 @@
 
 /* 导航条：搜索 */
 .nav-bar .search {
-  display: inline-block;
+  float: left;
   margin: 31px 0 0 96px;
   width: 413px;
   height: 70px;
@@ -41,6 +41,7 @@
   height: 38px;
   padding-left: 19px;
   border: solid #00a4ff 1px;
+  background-color: white;
 }
 
 /* 导航条：搜索按钮 */
@@ -53,7 +54,7 @@
 
 /* 导航条：用户信息 */
 .nav-bar .profile {
-  display: inline-block;
+  float: left;
   width: 118px;
   height: 100%;
   margin-left: 31px;
@@ -61,7 +62,7 @@
 }
 
 .nav-bar .profile img {
-  display: inline-block;
+  float: left;
   margin: 36px 0;
   width: 30px;
   height: 30px;
@@ -69,7 +70,7 @@
 }
 
 .nav-bar .profile p {
-  display: inline-block;
+  float: left;
   line-height: 30px;
   margin: 36px 0;
   padding-left: 8px;

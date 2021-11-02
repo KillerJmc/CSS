@@ -2,8 +2,6 @@
 .hobby-bar {
   margin-top: 8px;
   height: 38px;
-  /* TODO: 魔法值 */
-  width: 1200px;
   background-color: white;
   padding-top: 22px;
 }
@@ -15,7 +13,7 @@
   font-size: 16px;
   font-weight: bold;
   text-align: center;
-  border-right: solid 1px grey;
+  border-right: solid 1px #bfbfbf;
   background-color: white;
 }
 
