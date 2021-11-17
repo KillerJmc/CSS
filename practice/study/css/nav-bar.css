@@ -21,9 +21,20 @@
   font-weight: 560;
 }
 
-.nav-bar .links a {
-  padding-left: 43px;
-  line-height: 101px;
+.nav-bar .links li {
+  float: left;
+  margin-top: 42px;
+  padding-left: 31px;
+}
+
+.nav-bar .links li a {
+  display: block;
+  height: 28px;
+  padding: 0 8px;
+}
+
+.nav-bar .links li a:hover {
+  border-bottom: 2px solid #00a4ff;
 }
 
 /* 导航条：搜索 */

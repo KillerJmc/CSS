@@ -4,9 +4,11 @@
   float: left;
   width: 183px;
   height: 421px;
-  margin: 322px 0 0 1.5%;
+  margin-top: 322px;
   padding: 2px 0;
   background-color: white;
+  /* 将浮动列表进行绝对定位 */
+  position: absolute;
 }
 
 /* 索引列表: 标签 */
